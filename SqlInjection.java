@@ -109,6 +109,7 @@ public class SqlInjectionLesson10 extends AssignmentEndpoint {
     }
   }
 
+    
   private boolean tableExists(Connection connection) {
     try {
       Statement stmt =
